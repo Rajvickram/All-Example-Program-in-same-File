@@ -1,25 +1,23 @@
 .layout div{
-    background-color: antiquewhite;
-    border: 1px solid;
     display: grid;
+    background-color: burlywood;
+    border: 2px solid;
     justify-content: center;
     align-items: center;
-    font-size: 2rem;
-    color: lightseagreen;
 }
 
 .layout{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "h h h" "sb1 m sb2" "f f f";
-    grid-template-rows: 10vh 80vh 10vh;
+    grid-template-rows: 20vh 80vh 25vh;
 }
 
-.header{
+.head{
     grid-area: h;
 }
 
-.sidebar1{
+.side1{
     grid-area: sb1;
 }
 
