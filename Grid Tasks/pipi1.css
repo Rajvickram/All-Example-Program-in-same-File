@@ -1,0 +1,26 @@
+body{
+    width: 55rem;
+    height: 25vh;
+    border: 1px solid;
+    background-color: rebeccapurple;
+}
+
+header{
+    width: 40rem;
+    height: 8vh;
+    margin-left: 5rem;
+    display: flex;
+    border: 1px solid;
+}
+
+header ul{
+    display: flex;
+
+}
+
+@media (max-width: 425px){
+    body{
+        /* width: 26rem; */
+        background-color: violet;
+    }
+}
