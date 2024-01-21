@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button{
+    width: 20rem;
+    height: auto;
+    padding: 2rem 2rem;
+    position: relative;
+    top: 20rem;
+    left: 50rem;
+    border-radius: 3rem;
+    font-size: 1.5rem;
+    letter-spacing: 0.4rem;
+    background-color: orange;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+button:hover{
+    letter-spacing: 3px;
+    background-color: #dc5d19;
+    color: #fff;
+    box-shadow: #dc5d19 0px 7px 29px;
+}
+
+button:active{
+    transform: translateY(-60px);
+}
+
